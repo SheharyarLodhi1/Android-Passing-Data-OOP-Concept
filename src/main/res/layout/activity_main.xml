@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.next.sheharyar.calculatoroop.MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:textSize="12sp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:text="Enter Numbers to calculate sum"/>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <EditText
+           android:id="@+id/editSumOne"
+           android:layout_width="50dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="200dp"
+           android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/btnSumTotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editSumTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/btnSum"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:layout_marginLeft="260dp"-->
+            <!--android:text="+"/>-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="The sum of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalNumSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="200dp"
+            android:text="The sum of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="20dp"
+            android:text="Enter Numbers to calculate subtract"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editSubtractOne"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/btnSubTotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="120dp"/>
+
+        <EditText
+            android:id="@+id/editSubtractTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalSubtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="220dp"
+            android:text="The sub of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="20dp"
+            android:text="The subtract of two numbers : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editMultiiplyOne"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="215dp"/>
+
+        <TextView
+            android:id="@+id/btnMulTotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="240dp"/>
+
+        <EditText
+            android:id="@+id/editMultiplyTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="215dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="20dp"
+            android:text="The num to calculate multiplication : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalmulti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="220dp"
+            android:text="The mul of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            android:text="The multiplication of two numbers : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editDivisionOne"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="320dp"/>
+
+        <TextView
+            android:id="@+id/btnDivTotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="345dp"/>
+
+        <EditText
+            android:id="@+id/editDivisionTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="320dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="20dp"
+            android:text="Enter num to calculate division : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="220dp"
+            android:text="The div of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="20dp"
+            android:text="The division of two numbers : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editPercentageOne"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="420dp"/>
+
+        <TextView
+            android:id="@+id/btnPercentTotals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="445dp"/>
+
+        <EditText
+            android:id="@+id/editPercentageTwo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="420dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="20dp"
+            android:text="Enter num to calculate percentage : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/totalPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="220dp"
+            android:text="The % of two numbers are : "/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="20dp"
+            android:text="The Percentage of two numbers : "/>
+
+        <TextView
+            android:id="@+id/factorialText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="100dp"
+            android:text="Calculate Factorial num "/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
